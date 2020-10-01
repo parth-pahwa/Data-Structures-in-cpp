@@ -3,7 +3,7 @@
 using namespace std; 
 
 /* Function to sort an array using insertion sort*/
-void insertionSort(int arr[], int n)  
+void insertionSort(int arr[], int n)               // start of insertion sort function
 {  
     int i, key, j;  
     for (i = 1; i < n; i++) 
